@@ -18,21 +18,21 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          nome="LoginCadastro"
+          name="LoginCadastro"
           component={LoginCadastro}
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          nome="Dashboard"
+          name="Dashboard"
           component={Dashboard}
           options={{ headerLeft: () => null }}
         />
-        <Stack.Screen nome="Jogos" component={Jogos} />
-        <Stack.Screen nome="Estatisticas" component={Estatisticas} />
-        <Stack.Screen nome="Times" component={Times} />
-        <Stack.Screen nome="Campos" component={Campos} />
-        <Stack.Screen nome="Financeiro" component={Financeiro} />
-        <Stack.Screen nome="Administracao" component={Administracao} />
+        <Stack.Screen name="Jogos" component={Jogos} />
+        <Stack.Screen name="Estatisticas" component={Estatisticas} />
+        <Stack.Screen name="Times" component={Times} />
+        <Stack.Screen name="Campos" component={Campos} />
+        <Stack.Screen name="Financeiro" component={Financeiro} />
+        <Stack.Screen name="Administracao" component={Administracao} />
       </Stack.Navigator>
     </NavigationContainer>
   );
